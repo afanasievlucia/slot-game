@@ -1,0 +1,13 @@
+.slot-game-led {
+    width: 10px;
+    height: 10px;
+    background-image: radial-gradient(#ffffb8, #f9ca9a);
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 2px rgb(48, 47, 47);
+    transition: 1s;
+    filter: brightness(65%);
+    margin: 10px;
+}
+.slot-game-led.lighted {
+    filter: brightness(180%);
+}

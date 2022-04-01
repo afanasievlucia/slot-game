@@ -1,0 +1,17 @@
+.slot-game--wheel {
+    width: 50px;
+    height: 80px;
+    background-image: 
+        url(../../image/sprite.png),
+        linear-gradient(#30272a, #bba8aa, #dfdfdf, #e6e4e5, #eaebed, #dfdfdf, #bba8aa, #30272a);
+    background-size:
+        100%,
+        cover;
+    border: 1px solid #30272a;
+    margin: 13px auto;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.slot-game--wheel input {
+    display: none;
+}

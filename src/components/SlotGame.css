@@ -1,0 +1,217 @@
+.slot-game-container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: 275px;
+}
+.slot-game-header {
+    width: 250px;
+    height: 85px;
+    background-image: linear-gradient( #461214, #a5030e);
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+/* top-head leds container*/
+.slot-game-top-header {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    right: 20px;
+    height: 30px;
+    text-align: center;
+}
+.slot-game-top-header .slot-game-led {
+    display: inline-block;
+    margin: 10px 5px;
+} 
+.slot-game-left-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    display: block;
+}
+.slot-game-right-header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    display: block;
+}
+/* text-head */
+.slot-game-text-header {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    left: 25px;
+    bottom: 0;
+    height: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    background-image: linear-gradient(#350300, #56070a, #790000);
+    border-radius: 10px;
+}
+.gradient-text {
+    margin: 6px;
+    background-image: linear-gradient(#fff38d, #f4d443, #be2c03, #850c01);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slot-game-content { 
+    width: 350px;
+    height: 200px;
+    background-image: linear-gradient(#a5030e, #461214);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 5px 3px #370100;
+}
+.slot-game-content-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    display: block;
+}
+.slot-game-content-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+}
+.slot-game-content-frame {
+    position: absolute;
+    width: 290px;
+    height: 170px;
+    background-image: linear-gradient(#434542, #3c413b, #0a0907, #241e22, #241e22);
+    border-radius: 10px;
+    border-top: 2px solid #0a0907;
+    border-bottom: 2px solid #0a0907;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.slot-game-content-screen {
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    background-image: linear-gradient(  #eeb564 , #7e300a);
+    border-radius: 10px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.slot-game-button-go {
+    position: absolute;
+    width: 25px;
+    height: 80px;
+    right: -25px;
+    top: 60px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background-image: linear-gradient(to top right, #a5743c, #bc8834, #f4e0ab);
+    border: none;
+    z-index: -1;
+}
+.slot-game-handler {
+    width: 10px;
+    height: 80px;
+    background-image: linear-gradient(to right , #eaa083, #9f5025);
+    position: absolute;
+    right: -25px;
+    top: 5px;
+    transform:skewX(-15deg);
+    border-radius: 30px;
+}
+.slot-game-handler-ball {
+    position: absolute;
+    right: -40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: radial-gradient(#a55c65, #4a0d14, #3d0200);
+}
+.slot-game-screen-window-1, 
+.slot-game-screen-window-2, 
+.slot-game-screen-window-3 {
+    width: 75px;
+    height: 110px;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 5px;
+    background-image: linear-gradient(to bottom, #7e300a, #eeb564);
+    border-color: 2px solid #631b5a;
+}
+.slot-game-footer {
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    left: -30px;
+    border-bottom: 50px solid #630408;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 350px;
+    z-index: -1;
+}
+.slot-game-footer-border {
+    position: absolute;
+    width: 410px;
+    height: 10px;
+    margin: auto;
+    top: 250px;
+    left: -30px;
+    background-color: #56000b;
+    box-shadow: 0 8px 5px -2px #2e1034;
+    border-top: 1px solid #d4474f;
+}
+.slot-game-footer-buttons-container {
+    width: 350px;
+    height: 35px;
+    position: absolute;
+    top: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.slot-game-footer-buttons {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.slot-game-footer-button {
+    width: 20px;
+    height: 30px;
+    background-image: linear-gradient(#ffc66a 80%, #d27f15, #712c03 );
+    margin: 0 5px;
+    transform: skewX(-15deg);
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px black;
+}
+.slot-game-footer-round-button {
+    width: 60px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: radial-gradient(#ffc66a , #d27f15, #712c03 );
+    box-shadow: 0 3px 3px 3px rgb(34, 4, 4);
+    border-bottom: 3px solid #712c03;
+}
+.button1 {
+    transform: skewX(-30deg);
+}
+.button2 {
+    transform: skewX(-25deg);
+}
