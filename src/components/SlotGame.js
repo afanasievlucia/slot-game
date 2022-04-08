@@ -78,10 +78,10 @@ const SlotGame = (rootElement) => {
         createElement('script', {src: 'src/components/SlotGameLed.js'}, document.body)
         createElement('script', {src: 'src/components/SlotGameWheel.js'}, document.body)
 
-// loading subcomponents
-        // components.forEach(element => {
-        //    createElement(`${element.tagName}, { ${element.attr} }, ${element.root}`)
-        // })
+// //loading subcomponents
+//         components.forEach((element, attr, root) => {
+//            createElement(`${element.tagName},  ${attr.atrr} , ${root.root}`)
+//         })
 
 
 // creating all the DOM elements

@@ -195,19 +195,41 @@
 .slot-game-footer-button {
     width: 20px;
     height: 30px;
-    background-image: linear-gradient(#ffc66a 80%, #d27f15, #712c03 );
+    background-image: linear-gradient(to right, #ffc66a 80%, #d27f15);
     margin: 0 5px;
     transform: skewX(-15deg);
+    border-radius: 0 2px 2px;
+    box-shadow: 3px 3px 3px rgb(53, 17, 17);
+}
+.slot-game-footer-button:before {
+    content: '';
+    width: 20px;
+    height: 30px;
+    background-image: linear-gradient(#ffc66a 80%, #d27f15, #712c03 );
+    position: absolute;
+    border-color: 3px solid #d27f15;
     border-radius: 2px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 1px 1px 2px #712c03;
+    top: -2px;
+    right: 2px;
 }
 .slot-game-footer-round-button {
     width: 60px;
     height: 25px;
     border-radius: 50%;
     background-image: radial-gradient(#ffc66a , #d27f15, #712c03 );
-    box-shadow: 0 3px 3px 3px rgb(34, 4, 4);
-    border-bottom: 3px solid #712c03;
+    border-bottom: 1px solid #712c03;
+}
+.slot-game-footer-round-button:before {
+   content: "";
+   width: 60px;
+   height: 25px;
+   background-image: radial-gradient(#ffc66a , #d27f15, #712c03 );
+   position: absolute;
+   border-radius: 45%;
+   z-index: -1;
+   top: 3px;
+   box-shadow: 0 2px 2px 2px rgb(59, 12, 12);
 }
 .button1 {
     transform: skewX(-30deg);
